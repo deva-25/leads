@@ -1,0 +1,96 @@
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+        <html xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Registration page</title>
+        </head>
+        
+        <body bgcolor="#00FF00">
+        <fieldset>
+        <form action="regprocess.php" method="post" enctype="multipart/form-data">
+        <h1><center><font color="#EA6C0F">L.E.A.D.S</font></center></h1></fieldset>
+        <fieldset>
+        <table align="center" cellpadding="7">
+        <tr><th colspan="3"><i><u>REGISTRATION FORM</u></i></th></tr>
+        
+         <tr> 
+            <th>Name</th>
+            <th>:</th>
+            <th><input type="text" name="fname" /></th>
+         </tr>
+         
+          <tr> 
+            <th>Age</th>
+            <th>:</th>
+            <th><input type="text" name="fage" /></th>
+         </tr>
+         
+           <tr> 
+            <th>Gender</th>
+            <th>:</th>
+            <th>Male<input type="radio" name="fgender" value="MALE" />
+              Female<input type="radio" name="fgender" value="FEMALE"/></th>
+         </tr>
+         
+                    <tr> 
+                    <th>Type of farming</th>
+                    <th>:</th>
+                    <th><select name="fselect">
+                          <option value="Dairy">Dairy</option>
+                          <option value="Paultry">Paultry</option>                
+                        </select></th>
+                 </tr>
+
+                    <tr> 
+                    <th>Experience</th>
+                    <th>:</th>
+                    <th><select name="fexp">
+                          <option value="0 - 5">0 - 5</option>  
+                          <option value="6 - 10">6 - 10</option>  
+                          <option value="11 - 20">11 - 20</option>  
+                          <option value="20 +">20 +</option>               
+                        </select></th>
+                 </tr>
+
+         
+           <tr> 
+            <th>Phone</th>
+            <th>:</th>
+            <th><input type="text" name="fphone" /></th>
+         </tr>
+          
+           <tr> 
+            <th>Description</th>
+            <th>:</th>
+            <th><textarea name="fdescription"></textarea></th>
+          </tr>
+                     <tr> 
+            <th></th>
+            <th><i><u>LOGIN DETAILS</u></i></th>
+            <th></th>
+         </tr>
+          <tr> 
+            <th>User name</th>
+            <th>:</th>
+            <th><input type="text" name="fusername" /></th>
+         </tr>
+         
+          <tr> 
+            <th>Password</th>
+            <th>:</th>
+            <th><input type="password" name="fpassword" /></th>
+         </tr>
+           
+           <tr> 
+            <th><input type="reset" value="CLEAR" /></th>
+            <th>:</th>
+            <th><input type="submit" value="SUBMIT" name="fsubmit"/></th>
+          </tr>
+        </table>
+        </form>
+
+        <center><a href="login.php"><button>LOGIN PAGE</button></a></center>
+
+        </fieldset>
+        </body>
+        </html>
